@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/smarthomes"
+            android:title="Smart HOME Solutions" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/sensors"
+            android:title="Sensors List" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/settings"
+            android:title="Settings" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/logouts"
+            android:title="Logout" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/feedback"
+
+                android:title="Feedback" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/likes"
+                android:title="Like us" />
+        </menu>
+    </item>
+
+</menu>
