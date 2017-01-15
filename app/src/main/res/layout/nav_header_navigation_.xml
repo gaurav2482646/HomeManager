@@ -28,7 +28,7 @@
             android:layout_gravity="center"
             android:layout_marginLeft="10dp"
             android:textAppearance="?android:attr/textAppearanceMedium"
-            android:text="Good Morning,"
+            android:text="Good Morning"
             android:layout_height="wrap_content" />
     </LinearLayout>
 
@@ -36,6 +36,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:paddingTop="@dimen/nav_header_vertical_spacing"
+        android:id="@+id/name_navHeader"
         android:text="Gauravjeet Singh"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
 

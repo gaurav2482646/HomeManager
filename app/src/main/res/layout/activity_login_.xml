@@ -15,7 +15,7 @@
 
 
     <TextView
-        android:text="Home Manager"
+        android:text="Smart Home"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
@@ -33,6 +33,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="username"
+            android:id="@+id/username_login"
             android:inputType="text"/>
     </android.support.design.widget.TextInputLayout>
 
@@ -46,14 +47,20 @@
             android:hint="password"
             android:inputType="textPassword"/>
     </android.support.design.widget.TextInputLayout>
-    <android.support.v7.widget.ButtonBarLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp">
+
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Log In"
+            android:id="@+id/login_button"
             style="@android:style/Widget.DeviceDefault.Button.Inset" />
-    </android.support.v7.widget.ButtonBarLayout>
+
+    <TextView
+        android:text="Or Sign Up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/or_textview"
+        android:layout_gravity="right"
+        android:gravity="right"
+        android:clickable="true"/>
 </LinearLayout>
